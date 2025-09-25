@@ -29,9 +29,6 @@ python3 --version
 # Run the tool
 python3 zxc.py
 
-# Or using
-./zxc.py
-
 # Or if you set up an alias (see installation section):
 zxc
 ```
