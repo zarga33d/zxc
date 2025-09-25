@@ -132,10 +132,7 @@ sudo -V
 
 ### 1. Download the file
 ```bash
-# Copy file to project directory
-wget https://example.com/zxc.py
-# or
-curl -O https://example.com/zxc.py
+https://github.com/zarga33d/zxc.git
 ```
 
 ### 2. Make executable
@@ -152,13 +149,16 @@ chmod +x zxc.py
 ```bash
 # Add alias to your shell configuration
 nano ~/.zshrc
-
+```
+```bash
 # Add this line (replace 'path-to' with actual path):
 alias zxc='python3 /path-to/zxc.py'
-
+```
+```bash
 # Reload configuration
 source ~/.zshrc
-
+```
+```bash
 # Now you can run the tool from anywhere with:
 zxc
 ```
